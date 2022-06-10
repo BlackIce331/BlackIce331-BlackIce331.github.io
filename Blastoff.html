@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blastoff</title>
+
+    <script>
+
+        /*
+                Dezerae Brawner
+                5-19-22
+                Blastoff Assignment
+
+        */
+
+        alert("Blastoff!")
+
+        // The script tags lets the browser know we are in Javascript and not HTML
+        function StartTheCountdown()
+
+        {
+
+           // Purpose of the is function is to start the countdown
+           // and control the countdown also
+
+           // Declare variables
+           // used to display to user on screen
+           var countdown = 10;
+           // used to keep track of actual time
+           // 1000 = 1 second because we are using milliseconds
+           var timeout = 10000;
+           // use the set time out function for countdown
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+           
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+           // We need to do this 10 times
+           setTimeout(() => {
+               document.getElementById("CountdownDisplay").innerHTML = countdown;
+               countdown = countdown - 1;
+           }, timeout)
+           timeout = timeout - 1000;
+
+        }
+
+    </script>
+</head>
+<body>
+    <h1 style="color:darkred;">Countdown</h1>
+    <!-- This is a button to start the countdown
+    This button will call the function StartTheCountdown() when the user clicks it.
+    -->
+    
+    <button type="button" onclick="StartTheCountdown()">Start Countdown</button>
+    <p id="CountdownDisplay">10</p>
+    
+</body>
+</html>
